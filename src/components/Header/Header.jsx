@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header className="mx-auto flex max-w-110 flex-col flex-wrap items-center rounded-md bg-zinc-800/30 px-2 py-4 md:mt-4 md:max-w-[680px] md:px-6 md:py-6 lg:max-w-5xl">
-      <div className="mb-2 flex w-full rounded-md bg-[url(assets/background.jpg)] bg-cover bg-no-repeat">
+      <div className="mb-2 flex w-full rounded-md bg-[url(/background.jpg)] bg-cover bg-no-repeat">
         <div className="flex w-full justify-center rounded-md bg-zinc-900/50 px-2 md:px-6 lg:px-8 xl:px-10">
           <img
             className=""
