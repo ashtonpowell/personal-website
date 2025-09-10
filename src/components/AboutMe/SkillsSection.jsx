@@ -33,8 +33,8 @@ function SkillsSection() {
                     className="h-3 w-3 md:h-5 md:w-5"
                     src={
                       isOpen
-                        ? "src/assets/icons/down-arrow.svg"
-                        : "src/assets/icons/up-arrow.svg"
+                        ? "assets/icons/down-arrow.svg"
+                        : "assets/icons/up-arrow.svg"
                     }
                     alt={isOpen ? "down arrow" : "up arrow"}
                   />
