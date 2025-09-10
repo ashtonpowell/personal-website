@@ -12,7 +12,7 @@ const experienceData = [
       "Collaborate with healthcare teams to perform accurate medication reconciliation during transitions of care, such as hospice.",
       "Maintain accurate and comprehensive medication administration records in adherence to state and federal regulatory standards.",
     ],
-    img: "src/assets/experience-img/ready-meds-logo.jpg",
+    img: "assets/experience-img/ready-meds-logo.jpg",
     imgAlt: "Ready Meds Pharmacy logo",
   },
   {
@@ -32,7 +32,7 @@ const experienceData = [
       "Managed all areas of sales, customer service and key performance metrics.",
       "Organized clinical service events, including immunization clinics for Influenza and COVID-19 vaccinations.",
     ],
-    img: "src/assets/experience-img/bartell-drugs.jpeg",
+    img: "assets/experience-img/bartell-drugs.jpeg",
     imgAlt: "Bartell Drugs logo",
   },
   {
@@ -49,7 +49,7 @@ const experienceData = [
       "Offered advice on health issues, symptoms, and medications in response to patient inquiries.",
       "Provided pharmacological information in a community pharmacy setting at the request of health care professionals.",
     ],
-    img: "src/assets/experience-img/bartell-drugs.jpeg",
+    img: "assets/experience-img/bartell-drugs.jpeg",
     imgAlt: "Bartell Drugs logo",
   },
   {
@@ -67,7 +67,7 @@ const experienceData = [
       "Primary immunizer during cold and flu season.",
       "Handled telephone calls that did not require personal attention from the pharmacist, including those to health care providers.",
     ],
-    img: "src/assets/experience-img/bartell-drugs.jpeg",
+    img: "assets/experience-img/bartell-drugs.jpeg",
     imgAlt: "Bartell Drugs logo",
   },
   {
@@ -82,7 +82,7 @@ const experienceData = [
       "Conducted experiments and collected data for research projects.",
       "Assisted in the preparation of research presentations and reports.",
     ],
-    img: "src/assets/experience-img/wsu-logo.png",
+    img: "assets/experience-img/wsu-logo.png",
     imgAlt: "Washington State University logo",
   },
 ];

@@ -12,7 +12,7 @@ function About() {
       </div>
       <div className="flex items-center justify-center rounded-md bg-zinc-800/30 p-6 py-6 md:w-1/3 md:max-w-none">
         <img
-          src="src/assets/headshot.png"
+          src="assets/headshot.png"
           alt=""
           className="flex-none rounded-md"
         />

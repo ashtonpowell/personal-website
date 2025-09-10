@@ -7,7 +7,7 @@ const publicationData = [
       "Synthesis and stability of 2+1 complexes of N,N-diethylbenzoylthiourea with [MI(CO)3]+ (M = Re, 99mTc)",
     description:
       "Thomas R Hayes, Ashton S Powell, Charles L Barnes, Paul D Benny",
-    image: "src/assets/publication-img/thiourea.png",
+    image: "assets/publication-img/thiourea.png",
     imgAlt:
       "Synthesis and stability of 2+1 complexes of N,N-diethylbenzoylthiourea with [MI(CO)3]+ (M = Re, 99mTc)",
     date: "2015",
@@ -21,7 +21,7 @@ const publicationData = [
       "Recovery of rhodium with a novel soft donor ligand using solvent extraction techniques in chloride media",
     description:
       "Shalina C. Bottorff, Ashton S. Powell, Charles L. Barnes, Scot Wherland and Paul D. Benny",
-    image: "src/assets/publication-img/sns-rh.png",
+    image: "assets/publication-img/sns-rh.png",
     imgAlt:
       "Recovery of rhodium with a novel soft donor ligand using solvent extraction techniques in chloride media",
     date: "2016",
@@ -34,7 +34,7 @@ const publicationData = [
     title: "Media Effects on the Recycling of Rhodium from Spent Nuclear Fuel",
     description:
       "Shalina C. Bottorff, Ashton S. Powell, Thomas R. Hayes, Aurora E. Clark, Stephen P. Mezyk,  Paul D. Benny",
-    image: "src/assets/publication-img/wm2016-mediaeffects.png",
+    image: "assets/publication-img/wm2016-mediaeffects.png",
     imgAlt: "Media Effects on the Recycling of Rhodium from Spent Nuclear Fuel",
     date: "2016",
     link: "https://archivedproceedings.econference.io/wmsym/2016/pdfs/16364.pdf",

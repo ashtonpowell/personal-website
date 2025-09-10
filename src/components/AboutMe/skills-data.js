@@ -12,7 +12,7 @@ const skillsData = [
       "Cloud deployment (Google App Engine, Docker).",
       "Frontend development with React and Tailwind CSS.",
     ],
-    img: "src/assets/skills-img/dev.svg",
+    img: "assets/skills-img/dev.svg",
     imgAlt: "Software Development Skills Icon",
   },
   {
@@ -24,7 +24,7 @@ const skillsData = [
       "Extensive experience training and mentoring staff in healthcare settings.",
       "Focused on workflow optimization and process improvement for enhanced efficiency.",
     ],
-    img: "src/assets/skills-img/management.svg",
+    img: "assets/skills-img/management.svg",
     imgAlt: "Management and Leadership Skills Icon",
   },
   {
@@ -35,7 +35,7 @@ const skillsData = [
       "Experience with data analysis and reporting (scientific data and application logs).",
       "Adept at strategic decision-making under pressure.",
     ],
-    img: "src/assets/skills-img/analytical.svg",
+    img: "assets/skills-img/analytical.svg",
     imgAlt: "Analytical and Critical Thinking Skills Icon",
   },
   {
@@ -48,7 +48,7 @@ const skillsData = [
       "Effective team player across diverse industries and environments.",
       "Skilled in conflict resolution and consensus building.",
     ],
-    img: "src/assets/skills-img/communication.svg",
+    img: "assets/skills-img/communication.svg",
     imgAlt: "Communication and Collaboration Skills Icon",
   },
 ];

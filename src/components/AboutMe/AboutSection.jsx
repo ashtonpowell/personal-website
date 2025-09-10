@@ -5,7 +5,7 @@ function AboutSection() {
         <div>
           <img
             className="max-w-70 rounded-md bg-white"
-            src="src/assets/AboutMe/beach.png"
+            src="assets/AboutMe/beach.png"
             alt="Ashton and his wife standing on a beach"
           />
         </div>
