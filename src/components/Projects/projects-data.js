@@ -50,8 +50,8 @@ const projectData = [
       "Enhancing the reprocessing of spent nuclear fuel; ways to recycle and reuse materials from the fission process",
     image: "assets/project-img/chemistry-research-project.png",
     imgAlt: "Undergraduate Research Thesis Project",
-    date: "2024",
-    link: "projects/undergraduate-thesis.pdf",
+    date: "2016",
+    link: "/assets/undergraduate-thesis.pdf",
   },
 ];
 
