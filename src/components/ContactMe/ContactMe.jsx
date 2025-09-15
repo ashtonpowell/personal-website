@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { createContact } from "../../api/ContactMeService";
 import { motion, AnimatePresence } from "framer-motion";
+import { RingLoader } from "react-spinners";
 import {
   FaGithub,
   FaLinkedin,
   FaXTwitter,
   FaSquareYoutube,
 } from "react-icons/fa6";
+import { div } from "framer-motion/client";
 
 function ContactMe() {
   const [formData, setFormData] = useState({
@@ -24,6 +26,8 @@ function ContactMe() {
 
   const [msg, setMsg] = useState(false);
 
+  const [loading, setLoading] = useState(false);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -32,12 +36,14 @@ function ContactMe() {
     e.preventDefault();
 
     try {
+      setLoading(true);
       const res = await createContact(formData);
       setPopup({
         show: true,
         success: true,
         message: "Message Sent!",
       });
+      setLoading(false);
       setMsg(true);
       setFormData({
         name: "",
@@ -46,6 +52,7 @@ function ContactMe() {
         message: "",
       });
     } catch {
+      setLoading(false);
       setPopup({
         show: true,
         success: false,
@@ -109,8 +116,14 @@ function ContactMe() {
               required
               className="w-full rounded-md border-2 border-zinc-700 bg-zinc-900 p-2"
             />
+
             <div className="flex flex-col items-center">
-              {msg ? (
+              {loading ? (
+                <div className="mt-2 flex flex-col items-center justify-center gap-4 text-sm text-zinc-400">
+                  <RingLoader color="#d4d4d8" loading={loading} size={80} />
+                  Sending...
+                </div>
+              ) : msg ? (
                 <p className="mt-2 text-center text-lg font-semibold">
                   Thanks! I'll get back to you soon.
                 </p>
