@@ -22,6 +22,8 @@ function ContactMe() {
     message: "",
   });
 
+  const [msg, setMsg] = useState(false);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -34,8 +36,9 @@ function ContactMe() {
       setPopup({
         show: true,
         success: true,
-        message: "Message Sent.",
+        message: "Message Sent!",
       });
+      setMsg(true);
       setFormData({
         name: "",
         email: "",
@@ -46,7 +49,7 @@ function ContactMe() {
       setPopup({
         show: true,
         success: false,
-        message: "Failed to Send Message.",
+        message: "Failed to Send Message",
       });
     }
 
@@ -107,12 +110,18 @@ function ContactMe() {
               className="w-full rounded-md border-2 border-zinc-700 bg-zinc-900 p-2"
             />
             <div className="flex flex-col items-center">
-              <button
-                type="submit"
-                className="mt-2 w-1/2 rounded-md bg-zinc-700 px-4 py-2 text-xl text-zinc-200 transition-all delay-40 hover:scale-110 hover:bg-zinc-600"
-              >
-                Send
-              </button>
+              {msg ? (
+                <p className="mt-2 text-center text-lg font-semibold">
+                  Thanks! I'll get back to you soon.
+                </p>
+              ) : (
+                <button
+                  type="submit"
+                  className="mt-2 w-1/2 rounded-md bg-zinc-700 px-4 py-2 text-xl text-zinc-200 transition-all delay-40 hover:scale-110 hover:bg-zinc-600"
+                >
+                  Send
+                </button>
+              )}
             </div>
           </form>
           <div className="mt-10 hidden rounded-md bg-zinc-800/80 pt-6 lg:block lg:basis-1/4">
@@ -173,10 +182,10 @@ function ContactMe() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 50 }}
                 transition={{ duration: 0.3 }}
-                className={`fixed bottom-6 rounded-full px-4 py-3 shadow-lg md:bottom-10 ${
+                className={`fixed bottom-6 rounded-full bg-zinc-800 px-4 py-3 shadow-lg md:bottom-10 ${
                   popup.success
-                    ? "bg-green-600 text-white"
-                    : "bg-red-600 text-white"
+                    ? "border-4 border-green-600 text-zinc-300"
+                    : "border-4 border-red-600 text-zinc-300"
                 }`}
               >
                 {popup.message}
