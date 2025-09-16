@@ -11,9 +11,9 @@ function AboutSection() {
         </div>
         <div className="flex flex-col gap-4 rounded-md bg-zinc-800/30 py-4 hyphens-auto md:pl-6">
           <p className="px-6 text-sm md:mr-8 md:px-0 lg:mr-14 xl:text-lg">
-            I’m a pharmacist and software developer with professional interests
-            in healthcare informatics, data analytics, and medical software
-            development. I’m passionate about using technology to improve
+            I’m a pharmacist and aspiring software developer with professional
+            interests in medical software development, healthcare informatics
+            and data analytics. I’m passionate about using technology to improve
             workflows, support better decision making, and create tools to make
             healthcare more accessible and effective.
           </p>
@@ -24,7 +24,8 @@ function AboutSection() {
           </p>
           <p className="px-6 text-sm md:mr-8 md:px-0 lg:mr-14 xl:text-lg">
             I’m always happy to connect with others who share a passion for
-            healthcare and technology. Lets chat!
+            healthcare and technology. Use my contact form below to get in
+            touch!
           </p>
         </div>
       </div>
