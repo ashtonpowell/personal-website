@@ -142,22 +142,33 @@ function ContactMe() {
               <h1 className="text-xl font-semibold xl:text-2xl">
                 Social Media
               </h1>
-              <FaGithub
-                cursor="pointer"
-                className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
-              />
-              <FaLinkedin
-                cursor="pointer"
-                className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
-              />
-              <FaXTwitter
-                cursor="pointer"
-                className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
-              />
-              <FaSquareYoutube
-                cursor="pointer"
-                className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
-              />
+              <a href="https://github.com/ashtonpowell" target="_blank">
+                <FaGithub
+                  cursor="pointer"
+                  className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
+                />
+              </a>
+              <a
+                href="https://linkedin.com/in/ashton-powell-346b4811b"
+                target="_blank"
+              >
+                <FaLinkedin
+                  cursor="pointer"
+                  className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
+                />
+              </a>
+              <a href="https://x.com/Ashton664305" target="_blank">
+                <FaXTwitter
+                  cursor="pointer"
+                  className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
+                />
+              </a>
+              <a href="https://youtube.com/yourusername" target="_blank">
+                <FaSquareYoutube
+                  cursor="pointer"
+                  className="text-6xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
+                />
+              </a>
             </div>
           </div>
           <div className="block rounded-md bg-zinc-800/80 p-3 md:p-6 lg:hidden">
@@ -167,22 +178,33 @@ function ContactMe() {
               </h1>
             </div>
             <div className="flex justify-center gap-6 pt-2 md:gap-10">
-              <FaGithub
-                cursor="pointer"
-                className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
-              />
-              <FaLinkedin
-                cursor="pointer"
-                className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
-              />
-              <FaXTwitter
-                cursor="pointer"
-                className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
-              />
-              <FaSquareYoutube
-                cursor="pointer"
-                className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
-              />
+              <a href="https://github.com/ashtonpowell" target="_blank">
+                <FaGithub
+                  cursor="pointer"
+                  className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 xl:text-7xl"
+                />
+              </a>
+              <a
+                href="https://linkedin.com/in/ashton-powell-346b4811b"
+                target="_blank"
+              >
+                <FaLinkedin
+                  cursor="pointer"
+                  className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
+                />
+              </a>
+              <a href="https://x.com/Ashton664305" target="_blank">
+                <FaXTwitter
+                  cursor="pointer"
+                  className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
+                />
+              </a>
+              <a href="https://youtube.com/yourusername" target="_blank">
+                <FaSquareYoutube
+                  cursor="pointer"
+                  className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
+                />
+              </a>
             </div>
           </div>
         </div>
