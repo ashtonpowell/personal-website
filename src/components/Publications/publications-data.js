@@ -4,12 +4,12 @@ const publicationData = [
     type: "publication",
     discipline: "chemistry",
     title:
-      "Synthesis and stability of 2+1 complexes of N,N-diethylbenzoylthiourea with [MI(CO)3]+ (M = Re, 99mTc)",
+      "Synthesis and stability of 2+1 complexes of N,N-diethyl benzoylthiourea with [MI(CO)3]+ (M = Re, 99mTc)",
     description:
       "Thomas R Hayes, Ashton S Powell, Charles L Barnes, Paul D Benny",
     image: "assets/publication-img/thiourea.png",
     imgAlt:
-      "Synthesis and stability of 2+1 complexes of N,N-diethylbenzoylthiourea with [MI(CO)3]+ (M = Re, 99mTc)",
+      "Synthesis and stability of 2+1 complexes of N,N-diethyl benzoylthiourea with [MI(CO)3]+ (M = Re, 99mTc)",
     date: "2015",
     link: "https://www.tandfonline.com/doi/full/10.1080/00958972.2015.1071801",
   },
