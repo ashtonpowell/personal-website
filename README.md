@@ -1,7 +1,8 @@
 # Personal Website
 
-Welcome to my portfolio site!  
-This project serves as a showcase for my professional and technical background, featuring my experience, skills, projects, and publications
+**Welcome to my portfolio site!**
+
+This project serves as a showcase for my professional and technical background, featuring my experience, skills, projects, and publications.
 
 **Live Site:** [www.ashtonpowell.com](https://www.ashtonpowell.com/)
 
