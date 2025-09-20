@@ -199,7 +199,7 @@ function ContactMe() {
                   className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
                 />
               </a>
-              <a href="https://youtube.com/yourusername" target="_blank">
+              <a href="https://youtube.com/" target="_blank">
                 <FaSquareYoutube
                   cursor="pointer"
                   className="text-5xl transition-all delay-40 hover:scale-110 hover:text-zinc-50 md:text-6xl"
