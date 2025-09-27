@@ -4,7 +4,7 @@ const experienceData = [
     company: "Ready Meds Pharmcy",
     position: "Long Term Care Pharmacist",
     duration: "June 2023 - Present",
-    timeFrame: "2yrs 3mos",
+    timeFrame: "2yrs 5mos",
     description:
       "As a Long Term Care Pharmacist at Ready Meds Pharmacy, I manage medication therapy for long-term care facilities, ensuring optimal patient outcomes through collaboration with healthcare teams.",
     duties: [
