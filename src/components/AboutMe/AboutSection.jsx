@@ -13,7 +13,7 @@ function AboutSection() {
           <p className="px-6 text-sm md:mr-8 md:px-0 lg:mr-14 lg:text-base xl:text-lg">
             I’m a pharmacist with a passion for bridging healthcare and
             technology. I enjoy finding ways to simplify workflows, support
-            smarter decision-making, and create tools that make healthcare more
+            smarter decision making, and create tools that make healthcare more
             accessible and effective for patients and providers. My professional
             interests include healthcare informatics and data analytics, as well
             as utilization management and managed care.
