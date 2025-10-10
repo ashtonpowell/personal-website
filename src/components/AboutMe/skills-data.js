@@ -3,14 +3,14 @@
 const skillsData = [
   {
     id: 1,
-    title: "Software Development",
+    title: "Data Analysis & Software Development",
     skills: [
-      "Proficient in Python, JavaScript (React, Node.js), and RESTful API development.",
       "Experience with relational (MySQL) and NoSQL (MongoDB) databases.",
-      "Familiar with version control systems (Git) and CI/CD pipelines.",
-      "Knowledge of Agile methodologies and software development life cycle (SDLC).",
-      "Cloud deployment (Google App Engine, Docker).",
-      "Frontend development with React and Tailwind CSS.",
+      "Familiar with data visualization platforms (Power BI).",
+      "Proficient in Python (Flask) and JavaScript (React, Node.js) for RESTful API development.",
+      "Frontend Development with React and Tailwind CSS.",
+      "Comfortable with Git and CI/CD pipelines.",
+      "Cloud deployment (Google Cloud, Docker).",
     ],
     img: "assets/skills-img/dev.svg",
     imgAlt: "Software Development Skills Icon",
@@ -32,7 +32,7 @@ const skillsData = [
     title: "Analytical & Critical Thinking",
     skills: [
       "Strong problem-solving skills in technical and scientific settings.",
-      "Experience with data analysis and reporting (scientific data and application logs).",
+      "Experience analyzing and reporting data in academic research settings.",
       "Adept at strategic decision-making under pressure.",
     ],
     img: "assets/skills-img/analytical.svg",
@@ -44,7 +44,6 @@ const skillsData = [
     skills: [
       "Experience with scientific writing and publishing in peer-reviewed journals.",
       "Excellent verbal and written communication skills for technical and non-technical audiences.",
-      "Proficient in presenting complex information clearly to patients, colleagues, and stakeholders.",
       "Effective team player across diverse industries and environments.",
       "Skilled in conflict resolution and consensus building.",
     ],

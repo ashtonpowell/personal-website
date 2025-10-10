@@ -72,9 +72,6 @@ function ExperienceSection() {
                       transition={{ duration: 0.4, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <p className="mt-2 mb-1 text-sm md:mx-24 md:text-base">
-                        {exp.description}
-                      </p>
                       <ul className="list-disc pl-6 text-sm md:mx-27 md:text-sm">
                         {exp.duties.map((d, i) => (
                           <li className="py-1" key={i}>

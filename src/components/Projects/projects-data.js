@@ -29,18 +29,18 @@ const projectData = [
     date: "2025",
     link: "https://github.com/ashtonpowell/secure-password-manager",
   },
-  {
-    id: 3,
-    type: "project",
-    discipline: "compSci",
-    title: "Drug Shortages",
-    description:
-      "Link to the public GitHub repository for the Drug Shortages project. (Work in Progress)",
-    image: "assets/project-img/openfda.png",
-    imgAlt: "Drug Shortages Project",
-    date: "2025",
-    link: "https://github.com/ashtonpowell/drug-shortage-tracker",
-  },
+  // {
+  //   id: 3,
+  //   type: "project",
+  //   discipline: "compSci",
+  //   title: "Drug Shortages",
+  //   description:
+  //     "Link to the public GitHub repository for the Drug Shortages project. (Work in Progress)",
+  //   image: "assets/project-img/openfda.png",
+  //   imgAlt: "Drug Shortages Project",
+  //   date: "2025",
+  //   link: "https://github.com/ashtonpowell/drug-shortage-tracker",
+  // },
   {
     id: 4,
     type: "project",
